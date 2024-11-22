@@ -21,7 +21,7 @@ jobs:
           git config user.email "action@github.com"
 
       - name: Add Upstream
-        run: git remote add upstream https://github.com/源项目用户名/源项目仓库名.git
+        run: git remote add upstream https://github.com/GoogleChromeLabs/chrome-for-testing.git
 
       - name: Fetch Upstream
         run: git fetch upstream
